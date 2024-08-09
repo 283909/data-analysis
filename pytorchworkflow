@@ -1,0 +1,38 @@
+''' learn pytorch 
+
+data can be any things (images , videos , audio , dna ,etc)
+machine learning is a game of  two parts 
+1 .  get a data into a numerical representation .
+2 .  buils a model to learn pattern in data 
+
+input( data : images , text , audio , etc)
+then we have to create some sort of numerical encoding mean we
+have to convert that data in to numerical in order to find pattens from that data 
+
+then we have to build some sort of neural network which learn representation (patterns / features / weights)
+with in that numerical encoding 
+
+build a model or use pretrained model to find ptterns itto data 
+
+representation of that output  :
+it can be image classification , text classification , computer vision ,
+'''
+
+'''
+1 ) REGRESSION ANALYSIS 
+Y = dependend variable 
+f = function 
+x = iependend variable 
+beta or b = unknown parameters or slope channge in x leads to change in y
+e = errors terms 
+
+y = f(x, b) + e
+or 
+y = a+bx
+a = is itercept (when y is something x= 0)
+
+
+to showcase this lets create some data usinfg the liner regression formula
+we'll use a liner regression fromula to make a stright line with known paremeters
+
+'''
